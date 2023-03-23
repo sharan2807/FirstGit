@@ -1,3 +1,5 @@
+// ELEMENTS BY TAG NAME
+
 // let items = document.getElementsByClassName('list-group-item');
 // console.log(items);
 
