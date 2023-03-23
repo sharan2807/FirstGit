@@ -28,9 +28,16 @@
 //     odd[i].style.backgroundColor='green';
 // }
 
-// Task part1:
+// Task6 part1:
 var second=document.querySelector('li:nth-child(2)');
 second.style.backgroundColor='green';
 
 var third=document.querySelector('li:nth-child(3)');
 third.style.visibility='hidden';
+
+// Task part2:
+var odd=document.querySelectorAll('li:nth-child(odd)');
+
+for(var i=0;i<odd.length;i++){
+    odd[i].style.backgroundColor='green';
+}
